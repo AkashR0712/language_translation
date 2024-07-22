@@ -1,9 +1,9 @@
 {
     "builds": [
-      { "src": "language_translate/wsgi.py", "use": "@vercel/python" }
+      { "src": "language_translation/wsgi.py", "use": "@vercel/python" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "language_translate/wsgi.py" }
+      { "src": "/(.*)", "dest": "language_translation/wsgi.py" }
     ]
   }
   
